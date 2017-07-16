@@ -1,0 +1,7 @@
+<ul class='pul'>
+	<li class='item' ng-repeat='item in list' ui-sref='position({id:item.id})'>
+		<img class='pimg fl' ng-src='{{item.imgSrc}}' alt="" >
+		<h3 class='title'>{{item.name}}</h3>
+		<span class='text'>{{item.des}}<br>{{item.time}}</span>
+	</li>
+</ul>
